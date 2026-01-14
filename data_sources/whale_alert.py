@@ -12,8 +12,6 @@ import requests
 import requests
 
 url = "https://api.whale-alert.io/v1/status"
-params = {"api_key": "YOUR_API_KEY"}
 
-print(requests.get(url, params=params).json())
 
 
